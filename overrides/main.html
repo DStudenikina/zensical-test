@@ -2,23 +2,18 @@
     {% extends "base.html" %}
 
     {% block site_nav %}
-    <!-- Этот блок переопределяет навигацию и оглавление -->
-        <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
-            <div class="md-sidebar__scrollwrap">
-                <div class="md-sidebar__inner">
-                    <!-- Заменяем стандартный заголовок "On this page" на свой -->
-                    <nav class="md-nav md-nav--secondary">
-                        <label class="md-nav__title" for="__toc">
-                            <span class="md-nav__icon md-icon"></span>
-                            <!-- Вместо "On this page" напишите свой текст -->
-                            Содержание страницы
-                        </label>
-                        <!-- Остальная часть оглавления генерируется автоматически -->
-                        {% block toc %}
-                            {{ super() }}
-                        {% endblock %}
-                    </nav>
-                </div>
-            </div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+    <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner">
+            <nav class="md-nav md-nav--secondary">
+                <label class="md-nav__title" for="__toc">
+                    <span class="md-nav__icon md-icon"></span>
+                    Содержание страницы
+                </label>
+
+                {{ super() }}
+            </nav>
         </div>
-    {% endblock %}
+    </div>
+</div>
+{% endblock %}
