@@ -49,7 +49,7 @@ extra_javascript = ["javascripts/extra.js"]
 # variant = "classic"
 # custom_dir = "overrides"
 # favicon = "images/favicon.png"
-language = "en"
+language = "ru"
 features = [
   "announce.dismiss",
   # "content.action.edit",
@@ -79,7 +79,7 @@ features = [
   # "toc.integrate",
 ]
 
-# logo = "assets/logo.png"
+logo = "assets/logo.png"
 
 # [project.theme.icon]
 # logo = "lucide/smile"
