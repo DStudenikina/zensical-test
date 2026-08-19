@@ -50,6 +50,7 @@ extra_javascript = ["javascripts/extra.js"]
 # custom_dir = "overrides"
 # favicon = "images/favicon.png"
 language = "ru"
+logo = "assets/logo.png"
 features = [
   "announce.dismiss",
   # "content.action.edit",
@@ -78,8 +79,6 @@ features = [
   # "toc.follow",
   # "toc.integrate",
 ]
-
-logo = "assets/logo.png"
 
 # [project.theme.icon]
 # logo = "lucide/smile"
