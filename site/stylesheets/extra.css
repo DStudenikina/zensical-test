@@ -1,0 +1,29 @@
+.image-with-caption {
+    text-align: center;
+    margin: 1.5em 0;
+}
+
+.image-with-caption figcaption {
+    margin-top: 0.5em;
+    font-size: 0.9rem;
+    color: #334b79;
+    font-style: italic;
+}
+
+.md-content img {
+    max-width: 400px !important;
+    max-height: 650px !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.md-content img.tall-screenshot {
+    max-width: 500px !important;
+    max-height: 550px !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+body {
+    background-color: #fcfdfd;
+}
